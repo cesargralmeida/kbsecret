@@ -1,2 +1,16 @@
 en-US:
- test: Hello
+  HELP: |
+    Usage:
+      kbsecret help <command>
+
+    For a list of all commands, see:
+      kbsecret help
+  KBSECRET_HELP: |
+    Usage:
+      kbsecret <command> <args ...>
+
+    Available commands: 
+      %{available_commands}
+
+    For more information about a particular command, try:
+      kbsecret help <command>
