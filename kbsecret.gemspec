@@ -33,4 +33,5 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency "pastel", "~> 0.7"
   s.add_runtime_dependency "slop", "~> 4.6"
   s.add_runtime_dependency "tty-prompt", "~> 0.13"
+  s.add_runtime_dependency "i18n", "~> 0.7.0"
 end

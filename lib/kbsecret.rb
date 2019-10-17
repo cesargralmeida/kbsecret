@@ -12,6 +12,7 @@ require_relative "kbsecret/record"
 require_relative "kbsecret/session"
 require_relative "kbsecret/generator"
 require_relative "kbsecret/cli"
+require_relative "kbsecret/locales"
 
 # The primary namespace for {KBSecret}.
 module KBSecret
